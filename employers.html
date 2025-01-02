@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employer Portal | LinkedOut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Employer Portal</h1>
+      <nav>
+        <ul>
+          <button id="home"><a href="/index.html">Home</a></button>
+          <button id="orgs"><a href="#">Employers</a></button>
+          <button id="control"><a href="/backend.html">Management</a></button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form id="pswd">
+        <h2>Please use enter your assigned organization login.</h3>
+        <input type="username" id="validateUser" placeholder="Enter username...">
+        <input type="password" id="validatePswd" placeholder="Enter password...">
+        <button type="button" onclick="companySignin()">Submit</button><br><br>
+      </form>
+      <br />
+    </main>
+      <div id="form">
+        <form id="submission">
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company"/><br><br>
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" name="job-title"><br><br>
+          <label for="description">Description</label>
+          <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+          <label for="location">Location (City, State) </label>
+          <input type="text" id="location" name="location" /><br /><br />
+          <label for="salary">Salary (in USD $)</label>
+          <input type="number" id="salary" name="salary" /><br /><br />
+        </form>
+        <br />
+        <button id="submit" onclick="createPosting()">Add New Posting</button
+        ><br /><br />
+      </div>
+      <div id="patentpending">
+        <br><hr><br>
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Location (City, State)</th>
+            <th>Salary (per year)</th>
+            <th>Date Posted (MM/DD/YY)</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Human Resources Assistant</td>
+            <td>Houston, TX</td>
+            <td>$45,000</td>
+            <td>11/17/24</td>
+            <td>Pending</td>
+          </tr>
+        </table>
+      </div>
+      <div id="applicationz">
+        <br><hr><br>
+        <table>
+          <tr>
+            <th>Name of Applicant</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Position Applied For</th>
+            <th>Resume (PDF)</th>
+            <th>Cover Letter (PDF)</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Jack Jackyjackson</td>
+            <td>(240) 575-0685</td>
+            <td>jackyjackson.jack@somewhere.com</td>
+            <td>Human Resources Assistant</td>
+            <td>...?</td>
+            <td>...?</td>
+            <td><button id="approve">Approve</button><button id="reject">Reject</button></td>
+          </tr>
+        </table>
+      </div>
+      <footer>
+        <p>
+          &copy; 2024 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School
+          Chapter 2024-25
+        </p>
+      </footer>
+      <script src="/scripts/validation.js"></script>
+    <script src="/scripts/posting-catch.js"></script>
+  </body>
+</html>

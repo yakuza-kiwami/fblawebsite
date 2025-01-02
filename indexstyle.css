@@ -1,0 +1,163 @@
+html {
+  font-family: "Trebuchet MS";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #04003b;
+  color: #fff;
+  padding: 1rem 4px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#apply {
+  padding: 0.5rem 1rem;
+  margin-right: 5px;
+  background-color: #0b3562;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#home {
+  padding: 0.5rem 1rem;
+  background-color: #ffc845;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#orgs {
+  padding: 0.5rem 1rem;
+  background-color: #be0027;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#control {
+  padding: 0.5rem 1rem;
+  background-color: #0b3562;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.posting {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 0.7rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overview {
+  display: flex;
+}
+
+#listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: 98%
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: #555;
+  padding: 5px;
+}
+
+.location {
+  font-size: 16px;
+  color: #888;
+  padding: 5px;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #9e9d9d;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+#container {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#form {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.nobr {
+  white-space: nowrap
+}
+
+.apply {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px;
+}
+
+#approve {
+  padding: 0.5rem 1rem;
+  background-color: #50C878;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#reject {
+  padding: 0.5rem 1rem;
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

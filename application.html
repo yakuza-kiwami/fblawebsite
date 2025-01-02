@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply | LinkedOut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Applications</h1>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/employers.html">Employers</a></li>
+          <button id="control"><a href="/backend.html">Management</a></button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <section id="job-postings">
+        <form id="submission">
+          <label for="name">Full Legal Name</label>
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="phone">Phone Number (U.S./Canada only)</label>
+          <input type="text" id="phone" name="phone" /><br /><br />
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" /><br /><br />
+          <label for="company">Company Name (as on the posting)</label>
+          <input type="text" id="company" name="company" /><br /><br />
+          <label for="job-title">Job Title (as on the posting)</label>
+          <input type="text" id="job-title" name="job-title" /><br /><br />
+          <label for="resume">Resume (please submit PDF)</label>
+          <input type="file" id="resume" name="resume" />
+          <label for="coverletter">Cover Letter (please submit PDF)</label>
+          <input type="file" id="coverletter" name="coverletter" /><br><br>
+          <label for="extra">Any extra information...</label>
+          <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        </form>
+        <br />
+        <button id="submit" onclick="sendInfo()">Submit Application</button><br /><br />
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School
+        Chapter 2024-25
+      </p>
+    </footer>
+  </body>
+</html>

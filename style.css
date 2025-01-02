@@ -1,0 +1,223 @@
+html {
+  font-family: "Trebuchet MS";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #04003b;
+  color: #fff;
+  padding: 1rem 4px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#apply {
+  padding: 0.5rem 1rem;
+  background-color: #0b3562;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#home {
+  padding: 0.5rem 1rem;
+  background-color: #ffc845;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#orgs {
+  padding: 0.5rem 1rem;
+  background-color: #be0027;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#control {
+  padding: 0.5rem 1rem;
+  background-color: #0b3562;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.posting {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overview {
+  display: flex;
+}
+
+#listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  width: 98%
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #9e9d9d;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  max-width: 99%;
+  min-width: 99%;
+  height: 700px;
+}
+
+form {
+  text-align: center;
+}
+
+#submit {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#submit:hover {
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color: #0061a7;
+}
+
+#submit:active {
+  position: relative;
+  top: 1px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#container {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#patentpending {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#form {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+#applicationz {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.apply {
+  color: #fff;
+  text-decoration: none;
+}
+
+#approve {
+  padding: 0.5rem 1rem;
+  background-color: #50C878;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+#reject {
+  padding: 0.5rem 1rem;
+  background-color: #C70039;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
