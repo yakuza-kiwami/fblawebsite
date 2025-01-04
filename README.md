@@ -1,7 +1,7 @@
-# FBLA Website Coding & Development 
-## Info
-Future Business Leaders of America
-Urbana High School 2024-25
+# FBLA Project 2024-25
+Future Business Leaders of America,
+Website Coding and Development,
+Urbana High School 2024-25 -
 Zakriya Qasim Khan & Kapardhi Deshini
 - placed 4th at RLC (Regional)
 - on the way to SLC (State)
