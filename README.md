@@ -12,6 +12,9 @@ Your website must include the following functionalities:
 - A backend panel to approve or delete postings (guidance)
 - A page displaying the approved postings (students/listing)
 - A page for students to apply for the posting (students/applications)
+## Current Activity
+- Making mockups of website pages on paper
+- Sorting out a calendar for our purposes
 ## Audit
 What do we already have, what do we need to improve, and what do we need to add?
 ### Already Have
