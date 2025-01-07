@@ -1,8 +1,5 @@
 # FBLA Project 2024-25
-Future Business Leaders of America,
-Website Coding and Development,
-Urbana High School 2024-25 -
-Zakriya Qasim Khan & Kapardhi Deshini
+If you are reading this (besides me and Kp), this is an extracurricular project. Of course it's going to be shit. Thanks
 - placed 4th at RLC (Regional)
 - on the way to SLC (State)
 ### Prompt
