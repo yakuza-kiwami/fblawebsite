@@ -15,10 +15,10 @@ Your website must include the following functionalities:
 ## Audit
 What do we already have, what do we need to improve, and what do we need to add?
 ### Already Have
-- An index page where user can select who they are (students, employers, guidance)
 - Pages for each (submit postings, approve/delete, display postings, applications)
 - Demo for employer & guidance dept. password authentication for their pages
 ### Need to Add
+- An index page where user can select who they are (students, employers, guidance)
 - JavaScript application and posting submission parsing, rather than faking
   - store application and posting information, probably to a JSON file
 - Have approve/reject buttons actually work on employers & guidance pages
