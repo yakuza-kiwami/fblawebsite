@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Management | LinkedOut</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Schools | LinkedOut</title>
+  <link rel="stylesheet" href="../styles/universal.css" />
 </head>
 <body>
   <header>
     <h1>Management</h1>
     <nav>
       <ul>
-        <button id="home"><a href="/index.html">Home</a></button>
-        <button id="orgs"><a href="/employers.html">Employers</a></button>
-        <button id="control"><a href="#">Management</a></button>
+        <button id="students"><a href="../students/">Students</a></button>
+        <button id="employers"><a href="../employers/">Employers</a></button>
+        <button id="schools"><a href="#">Schools</a></button>
       </ul>
     </nav>
   </header>
   <main>
     <form id="pswd">
       <h2>Please use proper authorization.</h2>
-      <h3>This page is for authorized personnel only. Please return to the homepage if you are a student or to the employers portal if you are of an organization.</h3>
+      <h3>This page is for school counselors and administration only.</h3>
       <input type="password" id="validate" placeholder="Enter password...">
       <button type="button" onclick="validator()">Submit</button><br><br>
     </form>
@@ -32,7 +32,7 @@
   <footer>
     <p>&copy; 2024 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</p>
   </footer>
-  <script src="scripts/validation.js"></script>
-  <script src="scripts/approvals.js"></script>
+  <script src="../scripts/methods/validation.js"></script>
+  <script src="../scripts/methods/judgment.js"></script>
 </body>
 </html>

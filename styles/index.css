@@ -14,7 +14,7 @@ header {
 
 footer {
   text-align: center;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   background-color: #9e9d9d;
   color: #fff;
   position: absolute;
