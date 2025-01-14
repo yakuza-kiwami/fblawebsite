@@ -26,6 +26,11 @@ footer {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
 h2 {
   text-align: center;
 }
@@ -57,7 +62,7 @@ nav a {
   cursor: pointer;
 }
 
-#home {
+#students {
   padding: 0.5rem 1rem;
   background-color: #ffc845;
   color: #fff;
@@ -66,7 +71,7 @@ nav a {
   cursor: pointer;
 }
 
-#orgs {
+#employers {
   padding: 0.5rem 1rem;
   background-color: #be0027;
   color: #fff;
@@ -75,7 +80,7 @@ nav a {
   cursor: pointer;
 }
 
-#control {
+#schools {
   padding: 0.5rem 1rem;
   background-color: #0b3562;
   color: #fff;
