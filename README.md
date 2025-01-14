@@ -10,15 +10,14 @@ Your website must include the following functionalities:
 - A page displaying the approved postings (students/listing)
 - A page for students to apply for the posting (students/applications)
 ## Current Activity
-- Making mockups of website pages on paper
-- Sorting out a calendar for our purposes
+- Designing and coding website
 ## Audit
 What do we already have, what do we need to improve, and what do we need to add?
 ### Already Have
+- An index page where user can select who they are (students, employers, guidance)
 - Pages for each (submit postings, approve/delete, display postings, applications)
 - Demo for employer & guidance dept. password authentication for their pages
 ### Need to Add
-- An index page where user can select who they are (students, employers, guidance)
 - JavaScript application and posting submission parsing, rather than faking
   - store application and posting information, probably to a JSON file
 - Have approve/reject buttons actually work on employers & guidance pages
@@ -29,3 +28,4 @@ What do we already have, what do we need to improve, and what do we need to add?
 - Button design
 - Aesthetics
 - Place approved postings (students/listing) in an iframe rather than directly on main page
+- Fix footer anchoring to the bottom
