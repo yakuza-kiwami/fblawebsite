@@ -38,7 +38,7 @@ nav a {
   cursor: pointer;
 }
 
-#home {
+#students {
   padding: 0.5rem 1rem;
   background-color: #ffc845;
   color: #fff;
@@ -47,7 +47,7 @@ nav a {
   cursor: pointer;
 }
 
-#orgs {
+#employers {
   padding: 0.5rem 1rem;
   background-color: #be0027;
   color: #fff;
@@ -56,7 +56,7 @@ nav a {
   cursor: pointer;
 }
 
-#control {
+#schools {
   padding: 0.5rem 1rem;
   background-color: #0b3562;
   color: #fff;
@@ -164,7 +164,7 @@ h2 {
   text-align: center;
 }
 
-#patentpending {
+#pending {
   display: none;
   background-color: #f0f8ff;
   text-align: center;
@@ -176,7 +176,7 @@ h2 {
   text-align: center;
 }
 
-#applicationz {
+#applications {
   display: none;
   background-color: #f0f8ff;
   text-align: center;
