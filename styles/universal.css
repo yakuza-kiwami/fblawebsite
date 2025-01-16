@@ -198,6 +198,7 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
 .apply {
   color: #fff;
   text-decoration: none;
