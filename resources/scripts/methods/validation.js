@@ -17,9 +17,9 @@ function companySignin() {
   let correctPwd = "wearebigbacks";
   if (inputUser === correctUser && inputPswd === correctPwd) {
     alert("Welcome...! You have successfully logged in.");
-    document.getElementById("form").style.display = "block";
-    document.getElementById("patentpending").style.display = "block";
-    document.getElementById("applicationz").style.display = "block";
+    document.getElementById("newposting").style.display = "block";
+    document.getElementById("pending").style.display = "block";
+    document.getElementById("applicants").style.display = "block";
     document.getElementById("pswd").style.display = "none";
   } else {
     alert("Incorrect password!");
