@@ -164,19 +164,19 @@ h2 {
   text-align: center;
 }
 
+#newposting {
+  display: none;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
 #pending {
   display: none;
   background-color: #f0f8ff;
   text-align: center;
 }
 
-#form {
-  display: none;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-#applications {
+#applicants {
   display: none;
   background-color: #f0f8ff;
   text-align: center;
