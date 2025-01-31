@@ -22,6 +22,8 @@ What do we already have, what do we need to improve, and what do we need to add?
 ### Need to Add
 - JavaScript application and posting submission parsing, rather than faking
   - store application and posting information, probably to a JSON file
+  - when posting is created, it appears in the employers pending postings list
+  - 
 - Have approve/reject buttons actually work on employers & guidance pages
   - ability to move this data between JSON files (approval)
   - ability to delete this data in a JSON file (denial)
