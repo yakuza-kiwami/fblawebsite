@@ -7,6 +7,9 @@ html {
 
 body {
   overflow: hidden;
+}
+
+main {
   position: absolute;
   top: 50%;
   left: 50%;

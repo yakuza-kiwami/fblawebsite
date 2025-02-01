@@ -9,13 +9,20 @@
   <body>
     <header>
       <h1>Students | Postings</h1>
-      <nav>
+      <div id="navigation" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Students</a>
+        <a href="../employers/">Employers</a>
+        <a href="../guidance/">Schools</a>
+      </div>
+      <!--<nav>
         <ul>
           <button id="students"><a href="#">Students</a></button>
           <button id="employers"><a href="../employers/">Employers</a></button>
           <button id="schools"><a href="../guidance/">Schools</a></button>
         </ul>
-      </nav>
+      </nav>-->
+      <button class="openbtn" onclick="openNav()">☰</button>  
     </header>
     <main>
       <iframe src="../resources/iframes/postings_active.html"></iframe>
