@@ -1,4 +1,4 @@
-function validator() {
+function schoolSignin() {
   let inputUser = document.getElementById("validateAdmin")
   let inputPswd = document.getElementById("validateAdminPwd").value;
   let correctUser = "zakriya.khan"
@@ -12,7 +12,7 @@ function validator() {
   }
 }
 
-function companySignin() {
+function employerSignin() {
   let inputUser = document.getElementById("validateEmployer").value;
   let inputPswd = document.getElementById("validateEmployerPwd").value;
   let correctUser = "khanaz-kp";
