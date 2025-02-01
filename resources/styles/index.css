@@ -18,11 +18,10 @@ header {
 
 footer {
   text-align: center;
+  padding: 1rem 0;
   color: #fff;
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 h1, h3 {
