@@ -14,12 +14,11 @@ header {
 
 footer {
   text-align: center;
-  /* padding: 1rem 0; */
-  background-color: #9e9d9d;
+  padding: 1rem 0;
   color: #fff;
   position: absolute;
   bottom: 0;
-  /* width: 100%; */
+  width: 100%;
 }
 
 h1, h3 {
@@ -69,13 +68,6 @@ nav a {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.posting {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 0.7rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .overview {
