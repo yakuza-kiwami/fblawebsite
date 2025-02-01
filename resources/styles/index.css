@@ -5,6 +5,10 @@ html {
   background-color: #04003b;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   background-color: #04003b;
   color: #fff;
