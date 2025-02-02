@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Employers | LinkedOut</title>
     <link rel="stylesheet" href="../resources/styles/universal.css" />
+    <link rel="stylesheet" href="../resources/styles/employers.css" />
   </head>
   <body>
     <header>
@@ -27,81 +28,79 @@
       </form>
       <br />
     </main>
-      <div id="newposting">
-        <form id="submission">
-          <label for="job-title">Job Title</label>
-          <input type="text" id="job-title" name="job-title"><br><br>
-          <label for="description">Description</label>
-          <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
-          <label for="location">Location (City, State) </label>
-          <input type="text" id="location" name="location" /><br /><br />
-          <label for="salary">Salary (in USD $)</label>
-          <input type="number" id="salary" name="salary" /><br /><br />
-        </form>
-        <br />
-        <button id="submit" onclick="submitPost()">Add New Posting</button
-        ><br /><br />
-      </div>
-      <div id="pending">
-        <br><hr><br>
-        <h3>Postings</h3>
-        <table>
-          <tr>
-            <th>Job Title</th>
-            <th>Location (City, State)</th>
-            <th>Salary (per year)</th>
-            <th>Date Posted (MM/DD/YYYY)</th>
-            <th>Status</th>
-            <th>Remove?</th>
-          </tr>
-          <tr>
-            <td>Software Engineer</td>
-            <td>Frederick, MD</td>
-            <td>$70,000</td>
-            <td>11/17/2024</td>
-            <td>Active</td>
-            <td><button id="remove">Remove</button></td>
-          </tr>
-          <tr>
-            <td>Human Resources Assistant</td>
-            <td>Houston, TX</td>
-            <td>$50,000</td>
-            <td>2/1/2025</td>
-            <td>Applied</td>
-            <td><button id="remove">Remove</button></td>
-          </tr>
-        </table>
-      </div>
-      <div id="applicants">
-        <br><hr><br>
-        <h3>Applicants</h3>
-        <table>
-          <tr>
-            <th>Name of Applicant</th>
-            <th>Phone Number</th>
-            <th>Email Address</th>
-            <th>Position Applied For</th>
-            <th>Resume (PDF)</th>
-            <th>Cover Letter (PDF)</th>
-            <th>Status</th>
-          </tr>
-          <tr>
-            <td>Jack Jackyjackson</td>
-            <td>(240) 575-0685</td>
-            <td>jackyjackson.jack@somewhere.com</td>
-            <td>Human Resources Assistant</td>
-            <td>...?</td>
-            <td>...?</td>
-            <td><button id="approve">Approve</button><button id="reject">Reject</button></td>
-          </tr>
-        </table>
-      </div>
-      <!--<footer>
-        <p>&copy; 2025 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</p>
-      </footer>-->
-      <script src="../resources/scripts/methods/validation.js"></script>
-      <script src="../resources/scripts/methods/judgment.js"></script>
-      <script src="../resources/scripts/methods/reception.js"></script>
-      <script src="../resources/scripts/methods/routing.js"></script>
+    <div id="newposting">
+      <form id="submission">
+        <label for="job-title">Job Title</label>
+        <input type="text" id="job-title" name="job-title"><br><br>
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        <label for="location">Location (City, State) </label>
+        <input type="text" id="location" name="location" /><br /><br />
+        <label for="salary">Salary (in USD $)</label>
+        <input type="number" id="salary" name="salary" /><br /><br />
+      </form>
+      <br />
+      <button id="submit" onclick="submitPost()">Add New Posting</button
+      ><br /><br />
+    </div>
+    <div id="pending">
+      <br><hr><br>
+      <h3>Postings</h3>
+      <table>
+        <tr>
+          <th>Job Title</th>
+          <th>Location (City, State)</th>
+          <th>Salary (per year)</th>
+          <th>Date Posted (MM/DD/YYYY)</th>
+          <th>Status</th>
+          <th>Remove?</th>
+        </tr>
+        <tr>
+          <td>Software Engineer</td>
+          <td>Frederick, MD</td>
+          <td>$70,000</td>
+          <td>11/17/2024</td>
+          <td>Active</td>
+          <td><button id="remove">Remove</button></td>
+        </tr>
+        <tr>
+          <td>Human Resources Assistant</td>
+          <td>Houston, TX</td>
+          <td>$50,000</td>
+          <td>2/1/2025</td>
+          <td>Applied</td>
+          <td><button id="remove">Remove</button></td>
+        </tr>
+      </table>
+    </div>
+    <div id="applicants">
+      <br><hr><br>
+      <h3>Applicants</h3>
+      <table>
+        <tr>
+          <th>Name of Applicant</th>
+          <th>Phone Number</th>
+          <th>Email Address</th>
+          <th>Position Applied For</th>
+          <th>Resume (PDF)</th>
+          <th>Cover Letter (PDF)</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Jack Jackyjackson</td>
+          <td>(240) 575-0685</td>
+          <td>jackyjackson.jack@somewhere.com</td>
+          <td>Human Resources Assistant</td>
+          <td>...?</td>
+          <td>...?</td>
+          <td><button id="approve">Approve</button><button id="reject">Reject</button></td>
+        </tr>
+      </table>
+    </div>
+    <!--<footer>&copy; 2025 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</footer>-->
+    <script src="../resources/scripts/methods/validation.js"></script>
+    <script src="../resources/scripts/methods/judgment.js"></script>
+    <script src="../resources/scripts/methods/reception.js"></script>
+    <script src="../resources/scripts/methods/routing.js"></script>
   </body>
 </html>
