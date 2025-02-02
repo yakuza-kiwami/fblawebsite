@@ -1,3 +1,4 @@
+/* Begin basic HTML elements */
 html {
   font-family: "Trebuchet MS";
   margin: 0;
@@ -5,11 +6,57 @@ html {
   background-color: #f4f4f4;
 }
 
+body {
+  overflow: hidden;
+}
+
 header {
   background-color: #04003b;
   color: #fff;
   padding: 1rem 4px;
   text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  /* padding: 1rem 0; */
+  background-color: #9e9d9d;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+}
+
+iframe {
+  width: 100%;
+  max-width: 99%;
+  min-width: 99%;
+  height: 700px;
+}
+
+form {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 nav ul {
@@ -28,16 +75,9 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
+/* End basic HTML elements */
 
-#apply {
-  padding: 0.5rem 1rem;
-  background-color: #0b3562;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
+/* Begin buttons */
 #students {
   padding: 0.5rem 1rem;
   background-color: #ffc845;
@@ -63,67 +103,6 @@ nav a {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.posting {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.overview {
-  display: flex;
-}
-
-#listings {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
-  width: 98%
-}
-
-.job-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.company {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-
-.location {
-  font-size: 0.9rem;
-  color: #888;
-}
-
-.description {
-  margin-top: 1rem;
-}
-
-footer {
-  text-align: center;
-  /* padding: 1rem 0; */
-  background-color: #9e9d9d;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  /* width: 100%; */
-}
-
-iframe {
-  width: 100%;
-  max-width: 99%;
-  min-width: 99%;
-  height: 700px;
-}
-
-form {
-  text-align: center;
 }
 
 #submit {
@@ -154,56 +133,6 @@ form {
   top: 1px;
 }
 
-h2 {
-  text-align: center;
-}
-
-#container {
-  display: none;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-#newposting {
-  display: none;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-#pending {
-  display: none;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-#applicants {
-  display: none;
-  background-color: #f0f8ff;
-  text-align: center;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.apply {
-  color: #fff;
-  text-decoration: none;
-}
-
 #approve {
   padding: 0.5rem 1rem;
   background-color: #50C878;
@@ -222,7 +151,9 @@ tr:nth-child(even) {
   border-radius: 4px;
   cursor: pointer;
 }
+/* End buttons */
 
+/* Begin sidebar */
 .sidebar {
   height: 100%;
   width: 0;
@@ -280,3 +211,4 @@ tr:nth-child(even) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+/* End buttons */

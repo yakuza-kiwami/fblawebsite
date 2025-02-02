@@ -9,13 +9,11 @@
   <body>
     <header>
       <h1>Employer Portal</h1>
-      <nav>
-        <ul>
-          <button id="students"><a href="../students/">Students</a></button>
-          <button id="employers"><a href="#">Employers</a></button>
-          <button id="schools"><a href="../guidance/">Schools</a></button>
-        </ul>
-      </nav>
+      <div id="navigation" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../students/">Students</a>
+        <a href="../schools/">Schools</a>
+      </div>
     </header>
     <main>
       <form id="pswd">
@@ -40,7 +38,7 @@
           <input type="number" id="salary" name="salary" /><br /><br />
         </form>
         <br />
-        <button id="submit" onclick="createPosting()">Add New Posting</button
+        <button id="submit" onclick="submitPost()">Add New Posting</button
         ><br /><br />
       </div>
       <div id="pending">

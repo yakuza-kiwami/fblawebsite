@@ -1,6 +1,6 @@
 const form = document.getElementById('submission'); // Replace with your form's ID
 
-function createPosting() {
+function submitPost() {
   alert("yeah... it was most definitely created...");
 };
 

@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apply | LinkedOut</title>
     <link rel="stylesheet" href="../resources/styles/universal.css" />
+    <link rel="stylesheet" href="../resources/styles/students.css" />
   </head>
   <body>
     <header>
       <h1>Students | Apply</h1>
-      <nav>
-        <ul>
-          <button id="students"><a href="../students/">Students</a></button>
-          <button id="employers"><a href="../employers/">Employers</a></button>
-          <button id="schools"><a href="../guidance/">Schools</a></button>
-        </ul>
-      </nav>
+      <button class="openbtn" onclick="openNav()">☰</button>
+      <div id="navigation" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../students/">Postings</a>
+        <a href="../employers/">Employers</a>
+        <a href="../schools/">Schools</a>
+      </div>
     </header>
     <main>
       <br />

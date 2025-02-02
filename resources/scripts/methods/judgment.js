@@ -1,8 +1,9 @@
 function approvePosting() {
   alert("Posting approved!")
-  const posting = document.getElementById("posting");
+  document.getElementById("posting").style.display = "none";
 }
 
 function rejectPosting() {
   alert("Posting rejected.")
+  document.getElementById("posting").style.display = "none";
 }

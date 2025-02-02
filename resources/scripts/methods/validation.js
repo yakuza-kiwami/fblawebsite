@@ -16,7 +16,7 @@ function employerSignin() {
   let inputUser = document.getElementById("validateEmployer").value;
   let inputPswd = document.getElementById("validateEmployerPwd").value;
   let correctUser = "khanaz-kp";
-  let correctPwd = "wearebigbacks";
+  let correctPwd = "thosewhoknow";
   if (inputUser === correctUser && inputPswd === correctPwd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("newposting").style.display = "block";
