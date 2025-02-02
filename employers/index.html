@@ -18,7 +18,7 @@
       </div>
     </header>
     <main>
-      <form id="pswd">
+      <form id="signin">
         <h2>Sign in with your organization's account.</h2>
         <p>Here, you can access the employers' portal and manage your postings and see students' applications.</p>
         <p>If you wish to establish your organization on LinkedOut, contact the school's administration.</p>
@@ -31,19 +31,19 @@
     <div id="newposting">
       <form id="submission">
         <label for="job-title">Job Title</label>
-        <input type="text" id="job-title" name="job-title"><br><br>
+        <input type="text" id="job-title" name="job-title" required><br><br>
         <label for="description">Description</label>
-        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
-        <label for="location">Location (City, State) </label>
-        <input type="text" id="location" name="location" /><br /><br />
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+        <label for="location">Location (City, State)</label>
+        <input type="text" id="location" name="location" required/><br /><br />
         <label for="salary">Salary (in USD $)</label>
-        <input type="number" id="salary" name="salary" /><br /><br />
+        <input type="number" id="salary" name="salary" required/><br /><br />
       </form>
       <br />
       <button id="submit" onclick="submitPost()">Add New Posting</button
       ><br /><br />
     </div>
-    <div id="pending">
+    <div id="postings">
       <br><hr><br>
       <h3>Postings</h3>
       <table>
@@ -58,7 +58,7 @@
         <tr>
           <td>Software Engineer</td>
           <td>Frederick, MD</td>
-          <td>$70,000</td>
+          <td>$65,000</td>
           <td>11/17/2024</td>
           <td>Active</td>
           <td><button id="remove">Remove</button></td>
@@ -100,7 +100,6 @@
     <!--<footer>&copy; 2025 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</footer>-->
     <script src="../resources/scripts/methods/validation.js"></script>
     <script src="../resources/scripts/methods/judgment.js"></script>
-    <script src="../resources/scripts/methods/reception.js"></script>
     <script src="../resources/scripts/methods/routing.js"></script>
   </body>
 </html>

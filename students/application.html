@@ -23,33 +23,31 @@
       <section id="job-postings">
         <form id="submission">
           <label for="name">Full Legal Name (First, Last)</label>
-          <input type="text" id="name" name="name" /><br /><br />
+          <input type="text" id="name" name="name" required/><br /><br />
           <label for="phone">Phone Number (U.S./Canada only)</label>
-          <input type="text" id="phone" name="phone" /><br /><br />
+          <input type="text" id="phone" name="phone" required/><br /><br />
           <label for="email">Email</label>
-          <input type="text" id="email" name="email" /><br /><br />
+          <input type="text" id="email" name="email" required/><br /><br />
           <label for="company">Company Name</label>
-          <select id="company" name="company">
+          <select id="company" name="company" required>
             <option value="khanaz-kp">Khanaz-KP</option>
             <option value="huzz">Huzz Management</option>
             <option value="freakycountygov">Freaky County Government</option>
             <option value="freakycountyschools">Freaky County Public Schools</option>
           </select><br /><br />
           <label for="job-title">Job Title (as on the posting)</label>
-          <input type="text" id="job-title" name="job-title" /><br /><br />
-          <label for="resume">Resume (please submit PDF)</label>
-          <input type="file" id="resume" name="resume" />
+          <input type="text" id="job-title" name="job-title" required/><br /><br />
           <label for="coverletter">Cover Letter (please submit PDF)</label>
-          <input type="file" id="coverletter" name="coverletter" /><br><br>
+          <input type="file" id="coverletter" name="coverletter" required/><br><br>
+          <label for="resume">Resume (please submit PDF)</label>
+          <input type="file" id="resume" name="resume" required/>
         </form>
         <br />
         <button id="submit" onclick="submitApp()">Submit Application</button><br /><br />
       </section>
     </main>
-    <!--<footer>
-      <p>&copy; 2025 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</p>
-    </footer>-->
-    <script src="../resources/scripts/methods/reception.js"></script>
+    <!--<footer>&copy; 2025 Zakriya Khan & Kapardhi Deshini. FBLA, Urbana High School Chapter 2024-25</footer>-->
+    <script src="../resources/scripts/methods/judgment.js"></script>
     <script src="../resources/scripts/methods/routing.js"></script>
   </body>
 </html>
