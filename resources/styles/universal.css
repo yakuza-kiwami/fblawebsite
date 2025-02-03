@@ -38,8 +38,12 @@ iframe {
   height: 700px;
 }
 
-form {
-  text-align: left;
+#authForm {
+  text-align: center;
+}
+
+#postForm {
+  text-align: center;
 }
 
 table {
@@ -57,23 +61,6 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
 }
 /* End basic HTML elements */
 
