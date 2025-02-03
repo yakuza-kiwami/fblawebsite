@@ -1,7 +1,7 @@
 function schoolSignin() {
   let inputUser = document.getElementById("validateAdmin").value;
   let inputPswd = document.getElementById("validateAdminPwd").value;
-  let correctUser = "zakriya.khan";
+  let correctUser = "fcps";
   let correctPswd = "mango";
   if (inputUser === correctUser && inputPswd === correctPswd) {
     alert("Welcome! You have successfully logged in.");
