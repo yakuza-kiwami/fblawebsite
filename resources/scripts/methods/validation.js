@@ -5,7 +5,7 @@ function schoolSignin() {
   let correctPswd = "mango";
   if (inputUser === correctUser && inputPswd === correctPswd) {
     alert("Welcome! You have successfully logged in.");
-    document.getElementById("signin").style.display = "none";
+    document.getElementById("authForm").style.display = "none";
     document.getElementById("container").style.display = "block";
   } else {
     alert("Incorrect password! Please try again.");
@@ -19,7 +19,7 @@ function employerSignin() {
   let correctPswd = "thosewhoknow";
   if (inputUser === correctUser && inputPswd === correctPswd) {
     alert("Welcome! You have successfully logged in.");
-    document.getElementById("signin").style.display = "none";
+    document.getElementById("authForm").style.display = "none";
     document.getElementById("newposting").style.display = "block";
     document.getElementById("postings").style.display = "block";
     document.getElementById("applicants").style.display = "block";
