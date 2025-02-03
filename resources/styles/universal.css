@@ -143,7 +143,7 @@ nav a {
   cursor: pointer;
 }
 
-#reject {
+#delete {
   padding: 0.5rem 1rem;
   background-color: #C70039;
   color: #fff;

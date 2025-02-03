@@ -9,29 +9,6 @@
     display: flex;
 }
 
-#container {
-    display: none;
-    background-color: #f0f8ff;
-    text-align: center;
-}
-
-#listings {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-    width: 98%
-}
-
-#apply {
-    padding: 0.5rem 1rem;
-    background-color: #0b3562;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 .job-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -56,4 +33,27 @@
 .apply {
     color: #fff;
     text-decoration: none;
+}
+
+#container {
+    display: none;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+#listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    width: 98%
+}
+
+#apply {
+    padding: 0.5rem 1rem;
+    background-color: #0b3562;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
