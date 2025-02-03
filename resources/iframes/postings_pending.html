@@ -6,46 +6,57 @@
   <body>
     <main>
       <div id="pending">
-        <table>
-          <tr>
-            <th>Job Title</th>
-            <th>Company</th>
-            <th>Location (City, State)</th>
-            <th>Salary (per year)</th>
-            <th>Date Posted (MM/DD/YYYY)</th>
-            <th>Status</th>
-            <th>Approve/Delete?</th>
-          </tr>
-          <tr id="posting1">
-            <td>Software Engineer</td>
-            <td>Khanaz-KP Corp.</td>
-            <td>Frederick, MD</td>
-            <td>$70,000</td>
-            <td>11/17/2024</td>
-            <td>Active</td>
-            <td><button id="approve">Approve</button><button id="delete">Delete</button></td>
-          </tr>
-          <tr id="posting2">
-            <td>Human Resources Assistant</td>
-            <td>Khanaz-KP Corp.</td>
-            <td>Houston, TX</td>
-            <td>$50,000</td>
-            <td>2/1/2025</td>
-            <td>Applied</td>
-            <td><button id="approve">Approve</button><button id="delete">Delete</button></td>
-          </tr>
-          <tr id="posting3">
-            <td>Customer Service Representative</td>
-            <td>Huzz Management</td>
-            <td>Washington, DC</td>
-            <td>$40,000</td>
-            <td>2/3/2025</td>
-            <td>Pending</td>
-            <td><button id="approve">Approve</button><button id="delete">Delete</button></td>
-          </tr>
-        </table>
+        <div class="tabs">
+          <button class="tablinks" onclick="sortPostings(event, 'Active')">Active</button>
+          <button class="tablinks" onclick="sortPostings(event, 'Pending')">Pending</button>
+        </div>
+        <div id="Active" class="tabcontent">
+          <table>
+            <tr>
+              <th>Job Title</th>
+              <th>Company</th>
+              <th>Location (City, State)</th>
+              <th>Salary (per year)</th>
+              <th>Date Posted (MM/DD/YYYY)</th>
+              <th>Status</th>
+              <th>Approve/Delete?</th>
+            </tr>
+            <tr id="posting1">
+              <td>Software Engineer</td>
+              <td>Khanaz-KP Corp.</td>
+              <td>Frederick, MD</td>
+              <td>$70,000</td>
+              <td>11/17/2024</td>
+              <td>Active</td>
+              <td><button id="approve">Approve</button><button id="delete">Delete</button></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Pending" class="tabcontent">
+            <table>
+              <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location (City, State)</th>
+                <th>Salary (per year)</th>
+                <th>Date Posted (MM/DD/YYYY)</th>
+                <th>Status</th>
+                <th>Approve/Delete?</th>
+              </tr>
+              <tr id="posting2">
+                <td>Customer Service Representative</td>
+                <td>Huzz Management</td>
+                <td>Washington, DC</td>
+                <td>$40,000</td>
+                <td>2/3/2025</td>
+                <td>Pending</td>   
+                <td><button id="approve">Approve</button><button id="delete">Delete</button></td>
+              </tr>
+            </table>
+        </div>
       </div>
     </main>
     <script src="../scripts/methods/judgment.js"></script>
+    <script src="../scripts/methods/routing.js"></script>
   </body>
 </html>

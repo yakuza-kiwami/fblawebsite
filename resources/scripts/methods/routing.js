@@ -1,4 +1,3 @@
-/* When clicking apply in iframe, make page change in browser and not just in the iframe. */
 document.getElementById('myIframe').addEventListener('load', function() {
     var iframeDoc = document.getElementById('toApplications').contentWindow.document;
     var links = iframeDoc.querySelectorAll('a');
@@ -19,4 +18,18 @@ function openNav() {
 function closeNav() {
   document.getElementById("navigation").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
+}
+
+function sortPostings(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
