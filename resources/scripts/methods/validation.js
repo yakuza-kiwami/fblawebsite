@@ -3,12 +3,12 @@ function schoolSignin() {
   let inputPswd = document.getElementById("validateAdminPwd").value;
   let correctUser = "fcps";
   let correctPswd = "mango";
-  if (inputUser === correctUser && inputPswd === correctPswd) {
+  if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
     // document.getElementById("container").style.display = "block";
     $("#container").fadeIn();
-  } else if (inputUser === "" || inputPswd === "") {
+  } else if (inputUser == "" || inputPswd == "") {
     alert("Please enter both your username and password.");
   } else {
     alert("Incorrect password! Please try again.");
@@ -20,7 +20,7 @@ function employerSignin() {
   let inputPswd = document.getElementById("validateEmployerPwd").value;
   let correctUser = "khanaz-kp";
   let correctPswd = "thosewhoknow";
-  if (inputUser === correctUser && inputPswd === correctPswd) {
+  if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
     // document.getElementById("newposting").style.display = "block";
@@ -29,7 +29,7 @@ function employerSignin() {
     $("#newposting").fadeIn();
     $("#postings").fadeIn();
     $("#applicants").fadeIn();
-  } else if (inputUser === "" || inputPswd === "") {
+  } else if (inputUser == "" || inputPswd == "") {
     alert("Please enter both your username and password.");
   } else {
     alert("Incorrect password! Please try again.");
