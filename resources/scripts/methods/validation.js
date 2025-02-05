@@ -1,5 +1,4 @@
-function schoolSignin(event) {
-  event.preventDefault();
+function schoolSignin() {
   let inputUser = document.getElementById("validateAdmin").value;
   let inputPswd = document.getElementById("validateAdminPwd").value;
   let correctUser = "fcps";
@@ -16,8 +15,7 @@ function schoolSignin(event) {
   }
 }
 
-function employerSignin(event) {
-  event.preventDefault();
+function employerSignin() {
   let inputUser = document.getElementById("validateEmployer").value;
   let inputPswd = document.getElementById("validateEmployerPwd").value;
   let correctUser = "khanaz-kp";
