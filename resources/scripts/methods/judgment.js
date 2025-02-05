@@ -11,6 +11,11 @@ function rejectPosting() {
   document.getElementById("posting").style.display = "none";
 }
 
+function removePosting() {
+  alert("Posting removed.")
+  document.getElementById("posting").style.display = "none";
+}
+
 function submitPost() {
   alert("yeah... it was most definitely created...");
 };
