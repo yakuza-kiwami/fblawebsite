@@ -9,17 +9,6 @@ document.getElementById("listwindow").addEventListener('load', function() {
     });
 });
 
-/* Sidebar button */
-function openNav() {
-  document.getElementById("navigation").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("navigation").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-
 function sortPostings(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
