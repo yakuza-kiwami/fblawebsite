@@ -7,7 +7,6 @@ function schoolSignin() {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
     $("#container").fadeIn();
-    // document.getElementById("container").style.display = "block";
   } else {
     alert("Incorrect password! Please try again.");
   }
@@ -24,9 +23,6 @@ function employerSignin() {
     $("#newposting").fadeIn();
     $("#postings").fadeIn();
     $("#applicants").fadeIn();
-    // document.getElementById("newposting").style.display = "block";
-    // document.getElementById("postings").style.display = "block";
-    // document.getElementById("applicants").style.display = "block";
   } else {
     alert("Incorrect password! Please try again.");
   }
