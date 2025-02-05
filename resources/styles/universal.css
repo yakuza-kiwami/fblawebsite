@@ -47,7 +47,6 @@ iframe {
 }
 
 table {
-  font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -66,21 +65,33 @@ tr:nth-child(even) {
 
 
 /* Begin navbar */
-nav ul {
-  list-style: none;
+ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
   text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 1rem;
-}
-
-nav a {
-  color: #fff;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0b3562;
 }
 /* End navbar */
 
