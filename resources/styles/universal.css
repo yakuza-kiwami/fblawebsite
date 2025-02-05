@@ -38,10 +38,6 @@ iframe {
   height: 700px;
 }
 
-#authForm {
-  text-align: center;
-}
-
 #postForm {
   text-align: left;
 }
@@ -63,6 +59,30 @@ tr:nth-child(even) {
 }
 /* End basic HTML elements */
 
+/* Begin login forms */
+#authForm {
+  text-align: center;
+}
+
+input[type=username], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#login {
+  background-color: #6da3db;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+/* End login forms */
 
 /* Begin navbar */
 ul {
@@ -96,16 +116,6 @@ li a:hover:not(.active) {
 /* End navbar */
 
 /* Begin buttons */
-#login {
-  background-color: #6da3db;
-  color: rgb(0, 0, 0);
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
 #submit {
   box-shadow: inset 0px 1px 0px 0px #54a3f7;
   background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
