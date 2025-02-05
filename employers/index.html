@@ -22,9 +22,11 @@
         <h2>Sign in with your organization's account.</h2>
         <p>Here, you can access the employers' portal and manage your postings and see students' applications.</p>
         <p>If you wish to establish your organization on LinkedOut, contact the school's administration.</p>
+        <label for="username"><b>Username</b></label>
         <input type="username" id="validateEmployer" placeholder="Enter username...">
+        <label for="password"><b>Password</b></label>
         <input type="password" id="validateEmployerPwd" placeholder="Enter password...">
-        <button type="button" onclick="employerSignin()">Submit</button><br><br>
+        <button id="login" onclick="employerSignin()">Submit</button><br><br>
       </form>
       <br />
     </main>
@@ -147,8 +149,8 @@
           <td>(240) 575-0685</td>
           <td>jackyjackson.jack@somewhere.com</td>
           <td>Human Resources Assistant</td>
-          <td>...?</td>
-          <td>...?</td>
+          <td><a href="../resources/storage/resumes/jackyjackson-resume.pdf"></a></td>
+          <td><a href="../resources/storage/coverletters/jackyjackson-cv.pdf"></a></td>
           <td><button id="approve">Approve</button><button id="delete">Reject</button></td>
         </tr>
       </table>

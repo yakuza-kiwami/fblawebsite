@@ -70,11 +70,11 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0b3562;
 }
 
 li {
-  float: left;
+  float: center;
   border-right:1px solid #bbb;
 }
 
@@ -91,36 +91,19 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #0b3562;
+  background-color: #6da3db;
 }
 /* End navbar */
 
 /* Begin buttons */
-#students {
-  padding: 0.5rem 1rem;
-  background-color: #ffc845;
-  color: #fff;
+#login {
+  background-color: #6da3db;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
-}
-
-#employers {
-  padding: 0.5rem 1rem;
-  background-color: #be0027;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-#schools {
-  padding: 0.5rem 1rem;
-  background-color: #0b3562;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  width: 100%;
 }
 
 #submit {
