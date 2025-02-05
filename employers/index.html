@@ -38,6 +38,18 @@
         <input type="text" id="location" name="location" required/><br /><br />
         <label for="salary">Salary (in USD $)</label>
         <input type="number" id="salary" name="salary" required/><br /><br />
+        <label for="setting">Setting (in-person/remote/hybrid)</label>
+        <select id="setting" name="setting" required>
+          <option value="inperson">In-Person</option>
+          <option value="remote">Remote</option>
+          <option value="hybrid">Hybrid</option>
+        </select><br /><br />
+        <label for="type">Type (full-time/part-time/contract)</label>
+        <select id="time" name="time" required>
+          <option value="fulltime">Full-time</option>
+          <option value="parttime">Part-time</option>
+          <option value="parttime">Contract</option>
+        </select><br /><br />
       </form>
       <br />
       <button id="submit" onclick="submitPost()">Add New Posting</button><br /><br />
@@ -45,32 +57,78 @@
     <div id="postings">
       <br><hr><br>
       <h3>Postings</h3>
-      <table>
-        <tr>
-          <th>Job Title</th>
-          <th>Location (City, State)</th>
-          <th>Salary (per year)</th>
-          <th>Date Posted (MM/DD/YYYY)</th>
-          <th>Status</th>
-          <th>Remove?</th>
-        </tr>
-        <tr>
-          <td>Software Engineer</td>
-          <td>Frederick, MD</td>
-          <td>$65,000</td>
-          <td>11/17/2024</td>
-          <td>Active</td>
-          <td><button id="delete">Remove</button></td>
-        </tr>
-        <tr>
-          <td>Human Resources Assistant</td>
-          <td>Houston, TX</td>
-          <td>$50,000</td>
-          <td>2/1/2025</td>
-          <td>Applied</td>
-          <td>N/A</td>
-        </tr>
-      </table>
+      <div class="tab">
+        <button class="tablinks" onclick="sortPostings(event, 'Active')">Active</button>
+        <button class="tablinks" onclick="sortPostings(event, 'Applied')">Applied</button>
+        <button class="tablinks" onclick="sortPostings(event, 'Pending')">Pending</button>
+      </div>
+      <div id="Active" class="tabcontent">
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Location (City, State)</th>
+            <th>Salary (per year)</th>
+            <th>Setting</th>
+            <th>Type</th>
+            <th>Date Posted (MM/DD/YYYY)</th>
+            <th>Remove?</th>
+          </tr>
+          <tr id="posting1">
+            <td>Software Engineer</td>
+            <td>Frederick, MD</td>
+            <td>$65,000</td>
+            <td>Hybrid</td>
+            <td>Contract</td>
+            <td>2/4/2025</td>
+            <td><button id="delete">Remove</button></td>
+          </tr>
+        </table>
+      </div>
+      <div id="Applied" class="tabcontent">
+        <table>
+          <tr>
+            <th>Job Title</th>
+            <th>Location (City, State)</th>
+            <th>Salary (per year)</th>
+            <th>Setting</th>
+            <th>Type</th>
+            <th>Date Posted (MM/DD/YYYY)</th>
+            <th>Applicant's Name</th>
+          </tr>
+          <tr id="posting2">
+            <td>Human Resources Assistant</td>
+            <td>Washington, DC</td>
+            <td>$40,000</td>
+            <td>In-Person</td>
+            <td>Contract</td>
+            <td>2/3/2025</td>
+            <td>Jack Jackyjackson</td>
+          </tr>
+        </table>
+    </div>
+      <div id="Pending" class="tabcontent">
+          <table>
+            <tr>
+              <th>Job Title</th>
+              <th>Location (City, State)</th>
+              <th>Salary (per year)</th>
+              <th>Date Posted (MM/DD/YYYY)</th>
+              <th>Setting</th>
+              <th>Type</th>
+              <th>Date Posted (MM/DD/YYYY)</th>
+              <td>Remove?</td>
+            </tr>
+            <tr id="posting3">
+              <td>Customer Service Representative</td>
+              <td>Washington, DC</td>
+              <td>$40,000</td>
+              <td>Remote</td>
+              <td>Part-time</td>
+              <td>2/3/2025</td>
+              <td><button id="delete">Remove</button></td>
+            </tr>
+          </table>
+      </div>
     </div>
     <div id="applicants">
       <br><hr><br>

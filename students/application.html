@@ -10,17 +10,18 @@
   <body>
     <header>
       <h1>Students | Apply</h1>
-      <button class="openbtn" onclick="openNav()">☰</button>
-      <div id="navigation" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="../students/">Postings</a>
-        <a href="../employers/">Employers</a>
-        <a href="../schools/">Schools</a>
-      </div>
+      <nav>
+        <ul>
+          <button id="students"><a href="#">Students</a></button>
+          <button id="employers"><a href="../employers/">Employers</a></button>
+          <button id="schools"><a href="../guidance/">Schools</a></button>
+          <button id="3bar">☰</button>
+        </ul>
+      </nav>
     </header>
     <main>
       <br />
-      <section id="job-postings">
+      <section id="application">
         <form id="postForm">
           <label for="name">Full Legal Name (First, Last)</label>
           <input type="text" id="name" name="name" required/><br /><br />
