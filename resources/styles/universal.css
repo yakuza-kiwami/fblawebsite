@@ -64,7 +64,7 @@ tr:nth-child(even) {
   text-align: center;
 }
 
-input[type=username], input[type=password] {
+#validateEmployer, #validateAdmin, #validateEmployerPwd, #validateAdminPwd {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
