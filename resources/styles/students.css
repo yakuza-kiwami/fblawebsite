@@ -9,6 +9,10 @@
     display: flex;
 }
 
+h4 {
+    float: left;
+}
+
 .job-title {
     font-size: 1.2rem;
     font-weight: bold;
@@ -35,12 +39,6 @@
     text-decoration: none;
 }
 
-#container {
-    display: none;
-    background-color: #f0f8ff;
-    text-align: center;
-}
-
 #listings {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -56,10 +54,6 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-.overview {
-    display: flex;
 }
   
 .nobr {

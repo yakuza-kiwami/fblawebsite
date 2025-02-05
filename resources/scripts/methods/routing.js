@@ -1,3 +1,4 @@
+/*
 document.getElementById("listwindow").addEventListener('load', function() {
     var iframeDoc = document.getElementById('toApplications').contentWindow.document;
     var links = iframeDoc.querySelectorAll('a');
@@ -8,6 +9,7 @@ document.getElementById("listwindow").addEventListener('load', function() {
       });
     });
 });
+*/
 
 function sortPostings(evt, cityName) {
   var i, tabcontent, tablinks;
