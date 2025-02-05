@@ -6,7 +6,8 @@ function schoolSignin() {
   if (inputUser === correctUser && inputPswd === correctPswd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
-    $("#container").fadeIn();
+    document.getElementById("container").style.display = "block";
+    // $("#container").fadeIn();
   } else {
     alert("Incorrect password! Please try again.");
   }
@@ -20,9 +21,12 @@ function employerSignin() {
   if (inputUser === correctUser && inputPswd === correctPswd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
-    $("#newposting").fadeIn();
-    $("#postings").fadeIn();
-    $("#applicants").fadeIn();
+    document.getElementById("newposting").style.display = "block";
+    document.getElementById("postings").style.display = "block";
+    document.getElementById("applicants").style.display = "block";
+    // $("#newposting").fadeIn();
+    // $("#postings").fadeIn();
+    // $("#applicants").fadeIn();
   } else {
     alert("Incorrect password! Please try again.");
   }
