@@ -1,4 +1,4 @@
-document.getElementById('myIframe').addEventListener('load', function() {
+document.getElementById("listwindow").addEventListener('load', function() {
     var iframeDoc = document.getElementById('toApplications').contentWindow.document;
     var links = iframeDoc.querySelectorAll('a');
     links.forEach(function(link) {
