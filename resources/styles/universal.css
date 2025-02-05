@@ -64,6 +64,7 @@ tr:nth-child(even) {
 }
 
 #login {
+  display: block;
   background-color: #6da3db;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
