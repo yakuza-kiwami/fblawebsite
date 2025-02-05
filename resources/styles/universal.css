@@ -46,11 +46,8 @@ tr:nth-child(even) {
 /* End basic HTML elements */
 
 /* Begin login forms */
-#postForm {
-  text-align: center;
-}
-
-#authForm {
+#postForm, #authForm {
+  display: inline;
   text-align: center;
 }
 
