@@ -2,12 +2,11 @@ html {
   font-family: "Trebuchet MS";
   margin: 0;
   padding: 0;
-  background-color: #04003b;
+  background-image: url('../img/splash.png');
 }
 
 body {
   overflow: hidden;
-  background-image: url('../img/splash.png');
 }
 
 main {
