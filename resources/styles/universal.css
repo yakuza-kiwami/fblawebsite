@@ -21,16 +21,6 @@ h1, h2 {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-  /* padding: 1rem 0; */
-  background-color: #9e9d9d;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  /* width: 100%; */
-}
-
 iframe {
   width: 100%;
   max-width: 99%;
@@ -65,8 +55,7 @@ tr:nth-child(even) {
 }
 
 #validateEmployer, #validateAdmin, #validateEmployerPwd, #validateAdminPwd {
-  text-align: center;
-  width: 30%;
+  width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
