@@ -10,12 +10,14 @@
   <body>
     <header>
       <h1>Employer Portal</h1>
-      <button class="openbtn" onclick="openNav()">☰</button>
-      <div id="navigation" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="../students/">Students</a>
-        <a href="../schools/">Schools</a>
-      </div>
+      <nav>
+        <ul>
+          <button id="students"><a href="#">Students</a></button>
+          <button id="employers"><a href="../employers/">Employers</a></button>
+          <button id="schools"><a href="../schools/">Schools</a></button>
+          <button id="3bar">☰</button>
+        </ul>
+      </nav>
     </header>
     <main>
       <form id="authForm">
@@ -112,7 +114,6 @@
               <th>Job Title</th>
               <th>Location (City, State)</th>
               <th>Salary (per year)</th>
-              <th>Date Posted (MM/DD/YYYY)</th>
               <th>Setting</th>
               <th>Type</th>
               <th>Date Posted (MM/DD/YYYY)</th>
