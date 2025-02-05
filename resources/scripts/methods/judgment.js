@@ -17,10 +17,10 @@ function removePosting() {
 }
 
 function submitPost() {
-  alert("yeah... it was most definitely created...");
+  alert("Posting submitted, and pending approval from school administration.");
 };
 
 /* Manage applications */
 function submitApp() {
-  alert("yeah... it was most definitely received... we got that... yeah...");
+  alert("Application submitted, and pending approval from the employer!");
 }
