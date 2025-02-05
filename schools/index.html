@@ -11,20 +11,19 @@
     <header>
       <h1>Schools</h1>
       <ul>
-        <li>☰</li>
         <li><a href="../students/">Students</a></button></li>
         <li><a href="../employers/">Employers</a></li>
         <li class="active"><a href="../schools/">Schools</a></li>
       </ul>
     </header>
-    <main>
+    <main id="authForm2">
       <form id="authForm">
         <h2>Sign in with your administrator account.</h2>
         <p>Here, you can access the management portal and manage pending and active postings.</p>
         <p>Only school administrators with proper credentials can access this page. Contact the LinkedOut team if you require assistance.</p>
-        <label for="username"><b>Username</b></label>
+        <label id="username"><b>Username</b></label>
         <input type="username" id="validateAdmin" placeholder="Enter username..." required /><br><br>
-        <label for="password"><b>Password</b></label>
+        <label id="username"><b>Password</b></label>
         <input type="password" id="validateAdminPwd" placeholder="Enter password..." required /><br>
         <button id="login" onclick="schoolSignin()">Login</button><br><br>
       </form>

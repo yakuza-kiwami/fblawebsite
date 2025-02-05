@@ -1,3 +1,13 @@
+html {
+    font-family: "Trebuchet MS";
+    margin: 0;
+    padding: 0;
+}
+
+#iframe-main {
+    background-image: url('../img/splash2.png');
+}
+
 .posting {
     background-color: #fff;
     border-radius: 8px;
@@ -40,7 +50,7 @@ h4 {
 }
 
 #listings {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     padding: 1rem;

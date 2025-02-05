@@ -69,7 +69,6 @@ tr:nth-child(even) {
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
-  cursor: pointer;
 }
 /* End login forms */
 
