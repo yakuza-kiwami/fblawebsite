@@ -61,9 +61,11 @@ tr:nth-child(even) {
 #login {
   text-align: center;
   background-color: #6da3db;
+  font-family: "Trebuchet MS";
   color: #ffffff;
   padding: 14px 20px;
   display: block;
+  margin-top: 2px;
   margin: 0 auto;
   border: none;
 }
