@@ -64,9 +64,9 @@ tr:nth-child(even) {
   background-color: #6da3db;
   color: #ffffff;
   padding: 14px 20px;
-  margin: 8px 0;
+  display: block;
+  margin: 0 auto;
   border: none;
-  left: 50%;
 }
 /* End login forms */
 
