@@ -66,7 +66,7 @@ nav a {
 #students {
   padding: 0.5rem 1rem;
   background-color: #ffc845;
-  font-size: 12px;
+  font-size: 24px;
   color: #3d3d3d;
   border: none;
   border-radius: 4px;
@@ -76,7 +76,7 @@ nav a {
 #employers {
   padding: 0.5rem 1rem;
   background-color: #be0027;
-  font-size: 12px;
+  font-size: 24px;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -86,7 +86,7 @@ nav a {
 #schools {
   padding: 0.5rem 1rem;
   background-color: #0b3562;
-  font-size: 12px;
+  font-size: 24px;
   color: #fff;
   border: none;
   border-radius: 4px;
