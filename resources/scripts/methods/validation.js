@@ -5,7 +5,7 @@ function schoolSignin() {
   let correctPswd = "mango";
   if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
-    $("authForm").fadeOut();
+    document.getElementById("authForm").style.display = "none";
     $("#container").fadeIn();
     document.getElementById("login").style.display = "none";
   } else if (inputUser == "" || inputPswd == "") {
@@ -22,7 +22,7 @@ function employerSignin() {
   let correctPswd = "thosewhoknow";
   if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
-    $("authForm").fadeOut();
+    document.getElementById("authForm").style.display = "none";
     $("#newposting").fadeIn();
     $("#postings").fadeIn();
     $("#applicants").fadeIn();
