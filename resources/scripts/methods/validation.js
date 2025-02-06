@@ -1,7 +1,7 @@
 function schoolSignin() {
   let inputUser = document.getElementById("validateAdmin").value;
   let inputPswd = document.getElementById("validateAdminPwd").value;
-  let correctUser = "jonkler";
+  let correctUser = "fcps";
   let correctPswd = "mango";
   if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
@@ -18,7 +18,7 @@ function schoolSignin() {
 function employerSignin() {
   let inputUser = document.getElementById("validateEmployer").value;
   let inputPswd = document.getElementById("validateEmployerPwd").value;
-  let correctUser = "whysoserious";
+  let correctUser = "khanaz-kp";
   let correctPswd = "thosewhoknow";
   if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
