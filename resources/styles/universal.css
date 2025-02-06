@@ -52,6 +52,7 @@ tr:nth-child(even) {
 }
 
 #validateEmployer, #validateAdmin, #validateEmployerPwd, #validateAdminPwd {
+  text-align: center;
   width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -62,6 +63,7 @@ tr:nth-child(even) {
 
 #login {
   background-color: #6da3db;
+  text-align: center;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
   margin: 8px 0;
