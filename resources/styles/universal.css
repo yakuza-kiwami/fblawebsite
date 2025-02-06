@@ -47,7 +47,6 @@ tr:nth-child(even) {
 
 /* Begin login forms */
 #postForm, #authForm {
-  display: inline;
   text-align: center;
 }
 
