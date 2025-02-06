@@ -33,8 +33,7 @@ table {
   width: 100%;
 }
 
-td,
-th {
+td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -61,8 +60,8 @@ tr:nth-child(even) {
 }
 
 #login {
-  background-color: #6da3db;
   text-align: center;
+  background-color: #6da3db;
   color: #ffffff;
   padding: 14px 20px;
   margin: 8px 0;
