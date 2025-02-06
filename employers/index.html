@@ -19,7 +19,7 @@
     <main>
       <form id="authForm">
         <h2>Sign in with your organization's account.</h2>
-        <p>Here, you can access the employers' portal and manage your postings and see students' applications.</p>
+        <p>Here, you can access the employers' portal to manage your postings and see students' applications.</p>
         <p>If you wish to establish your organization on LinkedOut, contact the school's administration.</p>
         <label id="username"><b>Username</b></label>
         <input type="username" id="validateEmployer" placeholder="Enter username..." required /><br><br>
@@ -76,7 +76,7 @@
           <tr id="posting1">
             <td>Software Engineer</td>
             <td>Frederick, MD</td>
-            <td>$65,000</td>
+            <td>$60,000</td>
             <td>Hybrid</td>
             <td>Contract</td>
             <td>2/4/2025</td>
@@ -142,14 +142,23 @@
           <th>Cover Letter (PDF)</th>
           <th>Approve/Reject?</th>
         </tr>
-        <tr>
+        <tr id="app1">
           <td>Jack Jackyjackson</td>
           <td>(240) 575-0685</td>
           <td>jackyjackson.jack@somewhere.com</td>
           <td>Human Resources Assistant</td>
           <td><a href="../resources/storage/resumes/jackyjackson-resume.pdf">Resume</a></td>
           <td><a href="../resources/storage/coverletters/jackyjackson-cv.pdf">Cover Letter</a></td>
-          <td><button id="approve" onclick="approvePosting()">Approve</button><button id="delete" onclick="rejectPosting()">Reject</button></td>
+          <td><button id="approve" onclick="approveApp()">Approve</button><button id="delete" onclick="rejectApp()">Reject</button></td>
+        </tr>
+        <tr id="app2">
+          <td>Jack Jackyjackson</td>
+          <td>(240) 575-0685</td>
+          <td>jackyjackson.jack@somewhere.com</td>
+          <td>Website Quality Checker</td>
+          <td><a href="../resources/storage/resumes/jackyjackson-resume.pdf">Resume</a></td>
+          <td><a href="../resources/storage/coverletters/jackyjackson-cv.pdf">Cover Letter</a></td>
+          <td><button id="approve" onclick="approveApp()">Approve</button><button id="delete" onclick="rejectApp()">Reject</button></td>
         </tr>
       </table>
     </div>
