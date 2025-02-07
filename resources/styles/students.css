@@ -8,38 +8,51 @@ html {
     background-image: url('../img/splash2.png');
 }
 
+#listings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 98%;
+}
+
 .posting {
     background-color: #fff;
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .overview {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 h4 {
-    float: left;
+    margin: 0;
 }
 
 .job-title {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
   }
   
 .company {
     font-size: 1rem;
     color: #555;
-    margin-bottom: 0.5rem;
 }
   
 .location {
     font-size: 0.9rem;
     color: #888;
 }
-  
+
 .description {
     margin-top: 1rem;
 }
@@ -47,14 +60,6 @@ h4 {
 .apply {
     color: #fff;
     text-decoration: none;
-}
-
-#listings {
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
-    width: 98%
 }
 
 #apply {
@@ -67,5 +72,5 @@ h4 {
 }
   
 .nobr {
-    white-space: nowrap
+    white-space: nowrap;
 }
