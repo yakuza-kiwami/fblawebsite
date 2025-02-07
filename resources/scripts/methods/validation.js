@@ -23,7 +23,7 @@ function employerSignin() {
   if (inputUser == correctUser && inputPswd == correctPswd) {
     alert("Welcome! You have successfully logged in.");
     document.getElementById("authForm").style.display = "none";
-    $("#newposting").fadeIn();
+    $("#createNewPosting").fadeIn();
     $("#postings").fadeIn();
     $("#applicants").fadeIn();
     document.getElementById("login").style.display = "none";
