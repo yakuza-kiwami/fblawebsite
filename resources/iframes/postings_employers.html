@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles/universal.css" />
+        <link rel="stylesheet" href="../styles/employers.css" />
+    </head>
+    <body>
+        <div class="tab">
+            <button class="tablinks" onclick="sortPostings(event, 'Active')">Active</button>
+            <button class="tablinks" onclick="sortPostings(event, 'Applied')">Applied</button>
+            <button class="tablinks" onclick="sortPostings(event, 'Pending')">Pending</button>
+        </div>
+        <div id="Active" class="tabcontent">
+            <table>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Location (City, State)</th>
+                    <th>Salary (per year)</th>
+                    <th>Setting</th>
+                    <th>Type</th>
+                    <th>Date Posted (MM/DD/YYYY)</th>
+                    <th>Remove?</th>
+                </tr>
+                <tr id="posting1">
+                    <td>Software Engineer</td>
+                    <td>Frederick, MD</td>
+                    <td>$60,000</td>
+                    <td>Hybrid</td>
+                    <td>Contract</td>
+                    <td>2/4/2025</td>
+                    <td><button id="delete" onclick="removePosting()">Remove</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="Applied" class="tabcontent">
+            <table>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Location (City, State)</th>
+                    <th>Salary (per year)</th>
+                    <th>Setting</th>
+                    <th>Type</th>
+                    <th>Date Posted (MM/DD/YYYY)</th>
+                    <th>Applicant's Name</th>
+                </tr>
+                <tr id="posting2">
+                    <td>Human Resources Assistant</td>
+                    <td>Washington, DC</td>
+                    <td>$40,000</td>
+                    <td>In-Person</td>
+                    <td>Contract</td>
+                    <td>2/3/2025</td>
+                    <td>Jack Jackyjackson</td>
+                </tr>
+                <tr id="posting3">
+                    <td>Website Quality Checker</td>
+                    <td>Washington, DC</td>
+                    <td>$32,600</td>
+                    <td>Remote</td>
+                    <td>Contract</td>
+                    <td>2/6/2025</td>
+                    <td>Johnny Johnson</td>
+                </tr>
+            </table>
+        </div>
+        <div id="Pending" class="tabcontent">
+            <table>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Location (City, State)</th>
+                    <th>Salary (per year)</th>
+                    <th>Setting</th>
+                    <th>Type</th>
+                    <th>Date Posted (MM/DD/YYYY)</th>
+                    <th>Remove?</th>
+                </tr>
+                <tr id="posting4">
+                    <td>Customer Service Representative</td>
+                    <td>Washington, DC</td>
+                    <td>$40,000</td>
+                    <td>Remote</td>
+                    <td>Part-time</td>
+                    <td>2/6/2025</td>
+                    <td><button id="delete" onclick="removePosting()">Remove</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

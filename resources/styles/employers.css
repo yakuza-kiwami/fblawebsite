@@ -1,17 +1,8 @@
-#newposting {
+#createNewPosting, #postings, #applicants {
     display: none;
-    background-color: #f0f8ff;
-    text-align: center;
 }
-  
-#postings {
-    display: none;
-    background-color: #f0f8ff;
-    text-align: center;
-}
-  
-#applicants {
-    display: none;
+
+#createNewPosting-iframe, #postings-iframe, #applicants-iframe {
     background-color: #f0f8ff;
     text-align: center;
 }
