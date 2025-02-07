@@ -45,8 +45,26 @@ tr:nth-child(even) {
 /* End basic HTML elements */
 
 /* Begin login forms */
-#postForm, #authForm {
+#authForm {
   text-align: center;
+}
+
+#postForm {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#postForm label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#postForm input {
+  flex: 1;
+  padding: 5px;
 }
 
 #validateEmployer, #validateAdmin, #validateEmployerPwd, #validateAdminPwd {
