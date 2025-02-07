@@ -51,8 +51,6 @@ tr:nth-child(even) {
 
 #postForm {
   text-align: center;
-  display: flex;
-  align-items: center;
   margin-bottom: 10px;
 }
 
