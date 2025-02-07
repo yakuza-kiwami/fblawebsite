@@ -6,7 +6,7 @@ function approvePosting() { // Schools approving postings
 
 function rejectPosting() { // Schools rejecting postings
   alert("Posting rejected.")
-  document.getElementById("posting4").style.display = "none";
+  document.getElementById("posting6").style.display = "none";
 }
 
 function removePosting() { // Employers removing postings
