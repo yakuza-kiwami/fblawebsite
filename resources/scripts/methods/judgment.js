@@ -31,4 +31,5 @@ function approveApp() { // Employers accepting applications
 function rejectApp() { // Employers rejecting applications
   alert("Application rejected.")
   document.getElementById("app2").style.display = "none";
+  document.getElementById("posting3").style.display = "none";
 }
